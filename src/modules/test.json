@@ -1,0 +1,71 @@
+{
+    "match": {
+    "path": "/app-table/report/:rptId/record/:recId/navChild_:childTable/:childRec",
+        "url": "/app-table/report/1/record/8/navChild_Leroy/9",
+        "isExact": true,
+        "params": {
+        "rptId": "1",
+            "recId": "8",
+            "childTable": "Leroy",
+            "childRec": "9"
+    }
+},
+    "location": {
+    "pathname": "/app-table/report/1/record/8/navChild_Leroy/9",
+        "search": "",
+        "hash": "",
+        "state": {
+        "parentMatch": {
+            "path": "/app-table/report/:rptId/record/:recId",
+                "url": "/app-table/report/1/record/8",
+                "isExact": true,
+                "params": {
+                "rptId": "1",
+                    "recId": "8"
+            }
+        },
+        "parentLocation": {
+            "pathname": "/app-table/report/1/record/8",
+                "search": "",
+                "hash": "",
+                "state": "Report-Emily",
+                "key": "98epta"
+        },
+        "parentReportName": "Report-Emily"
+    },
+    "key": "3y76uz"
+},
+    "history": {
+    "length": 46,
+        "action": "PUSH",
+        "location": {
+        "pathname": "/app-table/report/1/record/8/navChild_Leroy/9",
+            "search": "",
+            "hash": "",
+            "state": {
+            "parentMatch": {
+                "path": "/app-table/report/:rptId/record/:recId",
+                    "url": "/app-table/report/1/record/8",
+                    "isExact": true,
+                    "params": {
+                    "rptId": "1",
+                        "recId": "8"
+                }
+            },
+            "parentLocation": {
+                "pathname": "/app-table/report/1/record/8",
+                    "search": "",
+                    "hash": "",
+                    "state": "Report-Emily",
+                    "key": "98epta"
+            },
+            "parentReportName": "Report-Emily"
+        },
+        "key": "3y76uz"
+    }
+},
+    "numChildTableRecs": 10,
+    "parentReportName": "Report-Emily",
+    "header": "traversing relationship records",
+    "recordLinks": "record/"
+}
